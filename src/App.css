@@ -31,7 +31,7 @@ body{
 }
 .display span{
   font-size: 12px;
-  color: blueviolet;
+  color: transparent;
 }
 
 button{
@@ -64,9 +64,12 @@ opacity: 0.9;
 .numbers{
   display: flex;
   flex-wrap: wrap;
+  background-color: rgb(26, 26, 235);
 }
+
 .numbers button{
   flex:1 1 33,333%;
   max-width: 33,333%;
-  background-color: blue;
+  background-color: rgb(26, 26, 235);
+
 }
